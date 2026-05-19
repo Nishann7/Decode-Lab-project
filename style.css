@@ -1,0 +1,44 @@
+/* body{
+    background-color: #81A094;
+    margin: 0;
+     padding: 0;
+   
+}
+.heading{
+    margin-top: 0;
+    border: 10px;
+    text-align: corner;
+    color: #775B59;
+}
+.heading span{
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #ab4c45;
+}
+div{
+    margin: 0;
+border-radius: 10px;
+height: 100px;
+    background-color: #81A094;
+    margin-top: auto;
+    width: 300px;
+
+}
+.image{
+    width: 500px;
+   float: right;
+   margin-top: 0;
+   position:absolute;
+   
+} */
+
+body{
+    margin: 0%;
+    border: 0;
+
+}
+.text h1{
+    text-align: center;
+    color:#775B59 ;
+    margin-top: 0.5;
+}
