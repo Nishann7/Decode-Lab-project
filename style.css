@@ -1,9 +1,10 @@
-body{
+body {
     margin: 0;
-    border: 0;
+    padding: 0;
 }
 
-.container{
+/* HEADER */
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,23 +12,22 @@ body{
     background-color: rgb(18, 17, 17);
 }
 
-.text{
+.text {
     flex: 1;
     text-align: center;
 }
 
-.text h1{
+.text h1 {
     color: #1a8ca2;
-    margin-top: 0;
-    text-align: center;
+    margin: 0;
 }
 
-.buttons{
+.buttons {
     display: flex;
     gap: 10px;
 }
 
-button{
+button {
     padding: 10px 30px;
     background-color: transparent;
     border: none;
@@ -35,13 +35,78 @@ button{
     cursor: pointer;
     font-size: medium;
 }
-.book{
-    font-size: large;
-    background-color:#8FB339;
-    padding: 20px 30px;
+
+.book {
+    background-color: #8FB339;
+    padding: 15px 25px;
     border-radius: 10px;
+    font-size: large;
 }
-.image{
-    float: right;
-   
+
+/* ABOUT + IMAGE SECTION */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+/* ABOUT BOX */
+.us {
+    width: 50%;
+    background-color: #8FB339;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.us h1 {
+    margin-bottom: 15px;
+    color: #430a0a;
+}
+
+.us p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #503047;
+}
+
+/* IMAGE */
+.image img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* DRINK PAGE */
+.drink {
+    background-color: white;
+    width: 300px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(221, 13, 13, 0.736);
+    text-align: center;
+}
+
+.drink h1 {
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.drink ul {
+    padding: 10px;
+    list-style: none;
+}
+
+.drink li {
+    background-color: orange;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
 }

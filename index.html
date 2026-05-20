@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurant</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- HEADER -->
 <div class="container">
 
     <div class="text">
@@ -21,14 +22,30 @@
     <div class="buttons">
         <button>Login</button>
         <button>Food Items</button>
-        <button>Drinks</button>
+        <button onclick="window.location.href='drink.html'">
+            Drinks
+        </button>
         <button class="book">Book a Table</button>
     </div>
 
 </div>
 
-<div class="image">
-    <img src="food.avif">
+<!-- ABOUT + IMAGE (SAME LINE) -->
+<div class="about-section">
+
+    <div class="us">
+        <h1>About Us</h1>
+        <p>
+            Hello, We are delighted to share restaurant with you.
+            We have been serving since 2000.
+            Hope you will have no difficulty for ordering...
+        </p>
+    </div>
+
+    <div class="image">
+        <img src="food.avif" alt="food">
+    </div>
+
 </div>
 
 </body>
